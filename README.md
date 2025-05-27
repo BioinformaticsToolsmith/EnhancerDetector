@@ -12,6 +12,10 @@ Please contact Dr. Hani Z. Girgis (hzgirgis@buffalo.edu) if you need more inform
 
 EnhancerDetector is a deep learning-based classification tool for predicting the presence of enhancers in DNA sequences. It uses species-specific convolutional neural networks (CNNs) trained on experimentally validated datasets for human, mouse, and Drosophila melanogaster (fly). Class activation mapping (CAM) can optionally be used to visualize the regions in each sequence that most influenced the model’s decision.
 
+DOI
+
+10.5281/zenodo.15531293
+
 ## Files:
 Models: Contains trained CNN models for each supported species (human, mouse, and fly) used by EnhancerDetector. The fly model uses an ensemble of three classifiers. The folder also includes indexers for converting DNA to numerical format.
 
