@@ -99,6 +99,7 @@ If you wish to run EnhancerDetector via the jupyter notebook:
    input_fly.fasta = Includes ten fly sequences in fasta format, the first five are likely enhancers while the last five are non-enhancers.
 
 3. In the main directory run EnhancerDetector.py
+   
    For Human
    > python EnhancerDetector.py --species human --input input_human.fa --outdir Output
 
@@ -109,6 +110,7 @@ If you wish to run EnhancerDetector via the jupyter notebook:
    > python EnhancerDetector.py --species fly --input input_fly.fa --outdir Output
 
    If you want to generate a CAM output for each sequence run:
+   
    For Human
    > python EnhancerDetector.py --species human --input input_human.fa --cam --outdir Output
 
