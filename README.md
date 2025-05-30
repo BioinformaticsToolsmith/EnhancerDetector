@@ -41,7 +41,11 @@ NumPy version: 1.24.3
 
 Matplotlib version: 3.8.3
 
-NOTE: These are the version the program was created on, future versions of these libraries may or may not work.
+The Finetuning uses the above libraries including:
+
+Scikit-learn version: 1.3.0
+
+NOTE: These are the versions the programs were created on, future versions of these libraries may or may not work.
 
 ## Parameters:
 EnhancerDetector uses four parameters:
