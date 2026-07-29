@@ -1,0 +1,2 @@
+﻿The data used for developing our model were derived from the human (hg38), mouse (mm10), and fly (dm6) genomes. Each dataset consists of positive sequences representing potential enhancers and five negative (potentially non-enhancer) sequence sets. All datasets are provided in BED format, except for the shuffled control sequences, which are provided in FASTA format.
+For the mouse genome, we provide the training partition even though we did not train models from scratch using this dataset. Instead, the training data were used for sampling during our fine-tuning experiments.
